@@ -1,0 +1,16 @@
+{
+    "clientHostname": "SVRHOSTDEV001",
+    "clientProcessName": "Loan Origination",
+    "clientWorkflowInstanceId": "904",
+    "requestId": "dd81aacb-64eb-452b-a0bd-c0395aa8afb5",
+    "requestAction": "submit",
+    "approverRequest": {
+        "requestStepName": "First Approver",
+        "requestStepActorEmail": "bhermawan@iif.co.id",
+        "requestStepActor": "Benny Hermawan",
+        "requestStepActorTitle": "Head of IT Dept.",
+        "requestStepIsApproved": false,
+        "requestStepRemark": "Incorrect Amount, please correct !",
+        "requestStepTimestamp": "2022-11-05T16:12:25.784Z"
+    }
+}

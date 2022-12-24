@@ -1,0 +1,14 @@
+{
+    "clientHostname": "SVRHOSTDEV001",
+    "clientProcessName": "Loan Origination",
+    "clientWorkflowInstanceId": "904",
+    "requestId": "dd81aacb-64eb-452b-a0bd-c0395aa8afb5",
+    "requestAction": "cancel",
+    "requestor": {
+        "requestorEmail": "ihazar@iif.co.id",
+        "requestorName": "Ilona Hazar",
+        "requestorTitle": "Head of Ops Dept.",
+        "requestorRemark": "Cancelled by CFO",
+        "requestorTimestamp": "2022-11-08T16:12:25.784Z"
+    }
+}
