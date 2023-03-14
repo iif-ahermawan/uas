@@ -1,0 +1,136 @@
+{
+    "clientHostname": "SVRHOSTDEV001",
+    "clientProcessName": "Loan Origination",
+    "clientWorkflowInstanceId": "904",
+    "requestId": "dd81aacb-64eb-452b-a0bd-c0395aa8afb5",
+    "requestAction": "submit",
+    "requestor": {
+        "requestorEmail": "rlionar@iif.co.id",
+        "requestorName": "Rahmat Lionar",
+        "requestorTitle": "Credit Operations Officer",
+        "requestorRemark": "Kindly need your approval on this disbursement transaction",
+        "requestorTimestamp": "2022-11-08T16:12:25.784Z"
+    },
+    "requestType": "notification",
+    "requestInformation": {
+        "fieldName_1": "Customer No",
+        "fieldValue_1": "100560",
+        "fieldName_2": "Customer Name",
+        "fieldValue_2": "PT. Nusa Energi Lesti",
+        "fieldName_3": "Project Code",
+        "fieldValue_3": "XGPE-PEL525-07RPWR",
+        "fieldName_4": "Account Manager",
+        "fieldValue_4": "Izmir Fadilah",
+        "fieldName_5": null,
+        "fieldValue_5": null
+    },
+    "approverRequests": [
+        {
+            "requestStepId": 1,
+            "requestStepName": "First Approver",
+            "requestStepType": "First To Response",
+            "requestStepActors": [
+                {
+                    "requestStepActorEmail": "bhermawan@iif.co.id",
+                    "requestStepActor": "Benny Hermawan",
+                    "requestStepActorTitle": "IT Staff"
+                },
+                {
+                    "requestStepActorEmail": "miqbal@iif.co.id",
+                    "requestStepActor": "Muhamad Iqbal",
+                    "requestStepActorTitle": "IT Manager"
+                }
+            ]
+        },
+        {
+            "requestStepId": 2,
+            "requestStepName": "Second Approver",
+            "requestStepType": "Everyone Must Approve",
+            "requestStepActors": [
+                {
+                    "requestStepActorEmail": "bhermawan@iif.co.id",
+                    "requestStepActor": "Benny Hermawan",
+                    "requestStepActorTitle": "IT Staff"
+                },
+                {
+                    "requestStepActorEmail": "miqbal@iif.co.id",
+                    "requestStepActor": "Muhamad Iqbal",
+                    "requestStepActorTitle": "IT Manager"
+                }
+            ]
+        },
+        {
+            "requestStepId": 3,
+            "requestStepName": "Third Approver",
+            "requestStepType": "Wait For One To Approve",
+            "requestStepActors": [
+                {
+                    "requestStepActorEmail": "bhermawan@iif.co.id",
+                    "requestStepActor": "Benny Hermawan",
+                    "requestStepActorTitle": "IT Staff"
+                },
+                {
+                    "requestStepActorEmail": "miqbal@iif.co.id",
+                    "requestStepActor": "Muhamad Iqbal",
+                    "requestStepActorTitle": "IT Manager"
+                }
+            ]
+        },
+        {
+            "requestStepId": 4,
+            "requestStepName": "Fourth Approver",
+            "requestStepActorEmail": "ryasmin@iif.co.id",
+            "requestStepActor": "Ria Yasmin",
+            "requestStepActorTitle": "Head of Ops & IT"
+        }
+    ],
+    "historyLayout": "comment",
+    "history": [
+        {
+            "requestStepTimestamp": "2022-11-05T16:12:25.784Z",
+            "requestStepName": "Request submitted",
+            "requestStepActor": "Rahmat Lionar",
+            "requestStepActorTitle": "Loan Ops Staff",
+            "requestStepRemark": "Kindly need your approval on this disbursement transaction"
+        },
+        {
+            "requestStepTimestamp": "2022-11-06T16:12:25.784Z",
+            "requestStepName": "Loan Disbursement Approval (First Level)",
+            "requestStepActor": "Ilona Hazar",
+            "requestStepActorTitle": "Head of Ops Dept.",
+            "requestStepIsApproved": false,
+            "requestStepRemark": "please correct the disbursement amount"
+        },
+        {
+            "requestStepTimestamp": "2022-11-07T16:12:25.784Z",
+            "requestStepName": "Request submitted",
+            "requestStepActor": "Rahmat Lionar",
+            "requestStepActorTitle": "Loan Ops Staff",
+            "requestStepRemark": "Kindly need your approval on this disbursement transaction"
+        },
+        {
+            "requestStepTimestamp": "2022-11-08T16:12:25.784Z",
+            "requestStepName": "Loan Disbursement Approval (First Level)",
+            "requestStepActor": "Ilona Hazar",
+            "requestStepActorTitle": "Head of Ops Dept.",
+            "requestStepIsApproved": true,
+            "requestStepRemark": "Support for the transaction"
+        }
+    ],
+    "attachments ": [
+        {
+            "itemId": 1,
+            "itemUrl": "https://mystorage.blob.core.windows.net/uas/br/b4543aaf8-ecdf-420c-b95d-4231eee400f7/b453aaf8-ecdf-420c-b95d-4231eee400f7.pdf",
+            "filename": "transaction_details.pdf",
+            "subject": "Transaction Details",
+            "mimeType": "application/pdf"
+        },
+        {
+            "itemId": 2,
+            "itemUrl": "https://mystorage.blob.core.windows.net/uas/br/b4543aaf8-ecdf-420c-b95d-4231eee400f7/b453aaf8-ecdf-420c-b95d-4231eee400f6.png",
+            "filename": "invoice_dec_2022.png",
+            "subject": "Invoice Bulan Des 2022",
+            "mimeType": "image/png"
+        }
+    ]
+}
