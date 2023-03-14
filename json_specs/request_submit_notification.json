@@ -12,18 +12,28 @@
         "requestorTimestamp": "2022-11-08T16:12:25.784Z"
     },
     "requestType": "notification",
-    "requestInformation": {
-        "fieldName_1": "Customer No",
-        "fieldValue_1": "100560",
-        "fieldName_2": "Customer Name",
-        "fieldValue_2": "PT. Nusa Energi Lesti",
-        "fieldName_3": "Project Code",
-        "fieldValue_3": "XGPE-PEL525-07RPWR",
-        "fieldName_4": "Account Manager",
-        "fieldValue_4": "Izmir Fadilah",
-        "fieldName_5": null,
-        "fieldValue_5": null
-    },
+    "requestInformation": [
+        {
+            "fieldName": "Customer No", 
+            "fieldValue": "100560"
+        },
+        {
+            "fieldName": "Customer Name", 
+            "fieldValue": "PT. Nusa Energi Lesti"
+        },
+        {
+            "fieldName": "Project Code", 
+            "fieldValue": "XGPE-PEL525-07RPWR"
+        },
+        {
+            "fieldName": "Account Manager", 
+            "fieldValue": "Izmir Fadilah"
+        },
+        {
+            "fieldName": null, 
+            "fieldValue": null
+        }
+    ],
     "approverRequests": [
         {
             "requestStepId": 1,

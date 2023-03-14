@@ -12,18 +12,28 @@
         "requestorTimestamp": "2022-11-08T16:12:25.784Z"
     },
     "requestType": "approval",
-    "requestInformation": {
-        "fieldName_1": "Procurement Type",
-        "fieldValue_1": "Limited Tender",
-        "fieldName_2": "BR No",
-        "fieldValue_2": "LT20230334348",
-        "fieldName_3": "Procurement Subject",
-        "fieldValue_3": "Pengadaan Mobil Operasional Kantor",
-        "fieldName_4": null,
-        "fieldValue_4": null,
-        "fieldName_5": null,
-        "fieldValue_5": null
-    },
+    "requestInformation": [
+        {
+            "fieldName": "Procurement Type", 
+            "fieldValue": "Limited Tender"
+        },
+        {
+            "fieldName": "BR No", 
+            "fieldValue": "LT20230334348"
+        },
+        {
+            "fieldName": "Procurement Subject", 
+            "fieldValue": "Pengadaan Mobil Operasional Kantor"
+        },
+        {
+            "fieldName": null, 
+            "fieldValue": null
+        },
+        {
+            "fieldName": null, 
+            "fieldValue": null
+        }
+    ],
     "approverRequests": [
         {
             "requestStepId": 1,
